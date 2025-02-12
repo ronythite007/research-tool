@@ -1,0 +1,9 @@
+streamlit
+pickle5
+time
+langchain
+sentence-transformers
+faiss-cpu
+huggingface-hub
+langchain_core
+langchain_groq
