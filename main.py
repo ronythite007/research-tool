@@ -27,7 +27,7 @@ process_url_clicked = st.sidebar.button("Process URLs")
 file_path = "faiss_store_openai.pkl"
 
 main_placeholder = st.empty()
-llm = ChatGroq(temperature=0, groq_api_key="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", model_name="mixtral-8x7b-32768")
+llm = ChatGroq(temperature=0, groq_api_key="your_api", model_name="mixtral-8x7b-32768")
 
 if process_url_clicked:
     # load data
